@@ -6,7 +6,7 @@ const getUserId = (req, requireAuth=true) => {
   // If header is provided, return user's id
   if(header) {
     const token = header.replace('Bearer ', '');
-    const decoded = jwt.verify(token, 'jwttokensecret');
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
     return decoded.userId;    
   }
   // If no header is provided but authentication is required, throw error
