@@ -1,3 +1,4 @@
+// Rename this file to 'example.test.js' to run these tests
 import {getFirst, isPwdValid} from '../src/utils/example';
 
 test('should get 1st name', () => {

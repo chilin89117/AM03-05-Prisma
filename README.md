@@ -6,7 +6,7 @@
 * To use Prisma API playground at `192.168.99.100:4466`:
   * Run `$ prisma token` in the `blog` directory to generate token
   * Use the token in http header `{"Authorization":"Bearer <token>"}`
-## After Section 8
+## Section 8 and Beyond
 ### Development Mode
 * Run `prisma deploy -e ../config/dev.env` in `blog` directory (if changes have been made)
 * Run `npm run dev` for playground at `localhost:4000`
