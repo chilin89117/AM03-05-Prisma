@@ -1,4 +1,4 @@
-# AM04-05-Prisma
+# AM03-05-Prisma
 ## Before Section 8
 * Run `Docker Quickstart Terminal` to run Docker at `192.168.99.100`
 * Run `docker-compose up -d` in project directory `blog` to start Prisma at port `4466`
